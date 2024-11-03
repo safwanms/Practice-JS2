@@ -1,0 +1,45 @@
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aqua;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#app{
+   
+    text-align: center;
+}
+
+input, button{
+    padding: 10px;
+    margin: 5px 0px;
+}
+
+#taskList{
+    list-style-type: none;
+    padding: 0px;
+}
+
+.task{
+    padding: 10px;
+    margin: 5px 0px;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.deleteBtn{
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 0.8rem;
+}
